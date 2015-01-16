@@ -22,19 +22,23 @@
     font-weight: normal;
 }
 
+.wrapper, .container, .ImgHeader {
+	border: 1px dotted red;
+}
+
+.wrapper {
+	display: inline-block;
+}
+
 .ImgHeader {
-	height: 6em;
-	width: 6em;
+	height: 150px;
+	width: 150px;
 }
 
 .NameHeader {
-	text-align: center;
 	font-family: HelveticaBold;
-	font-size: 6em;
-	text-align: left;
-	margin-left: 0.3em;
-	margin-top: -12px;
-	margin-bottom: 5px;
+	height: 75px;
+	font-size: 75px;
 }
 
 .SubHeader {
@@ -44,23 +48,11 @@
 }
 
 .menu {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	text-align: center;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	padding-top: 5px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 5px;
-	width: 1000px;
+	height: 75px;
 }
 
 .menu li {
-	margin-left: 75px; 
-	margin-right: 75px;
-	display: inline;
-	text-align: center;
+
 }
 
 .menu li a {
